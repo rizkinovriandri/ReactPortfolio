@@ -1,0 +1,23 @@
+.card-body{
+  text-align: left;
+}
+
+.cardHeader{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.icon-check{
+  margin-right: 20px;
+  color: green;
+}
+
+
+.awardListItem{
+  width: 100%;
+}
+
+.card-text{
+  margin-bottom: 30px;
+}

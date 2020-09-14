@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,33 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App {
+  text-align: center;
+}
+
+.wrapper{
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  
+  height: 100vh;
+}
+
+.sidebarz{
+  width: 20%;
+  background-color: #a4c639;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  padding: 120px 0;
+}
+
+.content{
+  width: 80%;
+  overflow: auto;
+  max-height: 100vh;  
 }
